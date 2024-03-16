@@ -53,7 +53,7 @@ Esto abrirá Expo Developer Tools en tu navegador, donde podrás ver los logs, y
 
 Para probar la aplicación en tu dispositivo físico, descarga la app Expo Go desde la App Store o Google Play Store. Escanea el QR code que aparece en Expo Developer Tools con la app de Expo Go.
 
-Exportar a un Archivo APK (Android)
+### Exportar a un Archivo APK (Android)
 Para generar un archivo APK:
 
 #### Ejecuta:
