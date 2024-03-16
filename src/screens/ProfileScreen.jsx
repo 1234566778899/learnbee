@@ -56,7 +56,7 @@ export default function ProfileScreen({ navigation }) {
                         <Text style={{ textAlign: 'center', fontSize: 15 }}>Siguiendo</Text>
                     </View>
                 </View>
-                <View style={{ flexDirection: 'row', zIndex: 1, marginTop: 10, justifyContent: 'space-between', width: '100%' }}>
+                <View style={{ flexDirection: 'row', zIndex: 1, marginTop: 5, justifyContent: 'space-between', width: '100%' }}>
                     <TouchableOpacity
                         onPress={() => cancelProject()}
                         style={{ borderWidth: 1, borderColor: '#F9CD14', paddingHorizontal: 35, paddingVertical: 15, marginTop: 10, borderRadius: 5 }}>
@@ -94,7 +94,7 @@ export default function ProfileScreen({ navigation }) {
                                 <Image source={require('../assets/hugo.png')} style={{ width: 50, height: 50 }} />
                                 <View style={{ marginLeft: 15 }}>
                                     <View style={{ flexDirection: 'row', justifyContent: 'space-between', paddingRight: 40 }}>
-                                        <Text style={{ fontWeight: 'bold' }}>Hugo Jimenez</Text>
+                                        <Text style={{ fontWeight: 'bold', fontSize: 15 }}>Hugo Jimenez</Text>
                                         <View style={{ flexDirection: 'row' }}>
                                             <AntDesign name="star" size={14} color="#F9CD14" />
                                             <AntDesign name="star" size={14} color="#F9CD14" />
@@ -104,12 +104,12 @@ export default function ProfileScreen({ navigation }) {
                                         </View>
                                     </View>
                                     <View style={{ marginTop: 5 }}>
-                                        <Text >Proyecto: No lo digas!</Text>
+                                        <Text style={{ fontWeight: 'bold' }}>Fisiyenga</Text>
                                         <Text style={{ paddingRight: 40 }} numberOfLines={2}>La semana pasada hemos jugado con todo el salón. Es bueno poner en práctica de vez en cuando lo aprendido de manera divertida para que nuestros niños aprendan</Text>
                                     </View>
                                 </View>
                             </View>
-                            <Image source={require('../assets/img2.png')} style={{ borderRadius: 10, width: '100%', height: 200, marginTop: 15 }} />
+                            <Image source={require('../assets/img2.png')} style={{ borderRadius: 5, width: '100%', height: 200, marginTop: 15 }} />
                             <View
                                 style={{ flexDirection: 'row', justifyContent: 'space-between', paddingHorizontal: 10 }}>
                                 <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center', paddingVertical: 10 }}>
@@ -131,7 +131,7 @@ export default function ProfileScreen({ navigation }) {
                                 <Image source={require('../assets/ester.png')} style={{ width: 50, height: 50 }} />
                                 <View style={{ marginLeft: 15 }}>
                                     <View style={{ flexDirection: 'row', justifyContent: 'space-between', paddingRight: 40 }}>
-                                        <Text style={{ fontWeight: 'bold' }}>Hugo Jimenez</Text>
+                                        <Text style={{ fontWeight: 'bold', fontSize: 15 }}>Hugo Jimenez</Text>
                                         <View style={{ flexDirection: 'row' }}>
                                             <AntDesign name="star" size={14} color="#F9CD14" />
                                             <AntDesign name="star" size={14} color="#F9CD14" />
@@ -141,12 +141,12 @@ export default function ProfileScreen({ navigation }) {
                                         </View>
                                     </View>
                                     <View style={{ marginTop: 5 }}>
-                                        <Text >Proyecto: No lo digas!</Text>
+                                        <Text style={{ fontWeight: 'bold' }}>Fisiyenga</Text>
                                         <Text style={{ paddingRight: 40 }} numberOfLines={2}>La semana pasada hemos jugado con todo el salón. Es bueno poner en práctica de vez en cuando lo aprendido de manera divertida para que nuestros niños aprendan</Text>
                                     </View>
                                 </View>
                             </View>
-                            <Image source={require('../assets/img3.png')} style={{ borderRadius: 10, width: '100%', height: 200, marginTop: 15 }} />
+                            <Image source={require('../assets/img3.png')} style={{ borderRadius: 5, width: '100%', height: 200, marginTop: 15 }} />
                             <View
                                 style={{ flexDirection: 'row', justifyContent: 'space-between', paddingHorizontal: 10 }}>
                                 <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center', paddingVertical: 10 }}>
@@ -168,7 +168,7 @@ export default function ProfileScreen({ navigation }) {
                                 <Image source={require('../assets/avatar.png')} style={{ width: 50, height: 50 }} />
                                 <View style={{ marginLeft: 15 }}>
                                     <View style={{ flexDirection: 'row', justifyContent: 'space-between', paddingRight: 40 }}>
-                                        <Text style={{ fontWeight: 'bold' }}>Hugo Jimenez</Text>
+                                        <Text style={{ fontWeight: 'bold', fontSize: 15 }}>Hugo Jimenez</Text>
                                         <View style={{ flexDirection: 'row' }}>
                                             <AntDesign name="star" size={14} color="#F9CD14" />
                                             <AntDesign name="star" size={14} color="#F9CD14" />
@@ -178,12 +178,12 @@ export default function ProfileScreen({ navigation }) {
                                         </View>
                                     </View>
                                     <View style={{ marginTop: 5 }}>
-                                        <Text >Proyecto: No lo digas!</Text>
+                                        <Text style={{ fontWeight: 'bold' }}>Fisiyenga</Text>
                                         <Text style={{ paddingRight: 40 }} numberOfLines={2}>La semana pasada hemos jugado con todo el salón. Es bueno poner en práctica de vez en cuando lo aprendido de manera divertida para que nuestros niños aprendan</Text>
                                     </View>
                                 </View>
                             </View>
-                            <Image source={require('../assets/img3.png')} style={{ borderRadius: 10, width: '100%', height: 200, marginTop: 15 }} />
+                            <Image source={require('../assets/img3.png')} style={{ borderRadius: 5, width: '100%', height: 200, marginTop: 15 }} />
                             <View
                                 style={{ flexDirection: 'row', justifyContent: 'space-between', paddingHorizontal: 10 }}>
                                 <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center', paddingVertical: 10 }}>
@@ -205,7 +205,7 @@ export default function ProfileScreen({ navigation }) {
                                 <Image source={require('../assets/hugo.png')} style={{ width: 50, height: 50 }} />
                                 <View style={{ marginLeft: 15 }}>
                                     <View style={{ flexDirection: 'row', justifyContent: 'space-between', paddingRight: 40 }}>
-                                        <Text style={{ fontWeight: 'bold' }}>Hugo Jimenez</Text>
+                                        <Text style={{ fontWeight: 'bold', fontSize: 15 }}>Hugo Jimenez</Text>
                                         <View style={{ flexDirection: 'row' }}>
                                             <AntDesign name="star" size={14} color="#F9CD14" />
                                             <AntDesign name="star" size={14} color="#F9CD14" />
@@ -215,12 +215,12 @@ export default function ProfileScreen({ navigation }) {
                                         </View>
                                     </View>
                                     <View style={{ marginTop: 5 }}>
-                                        <Text >Proyecto: No lo digas!</Text>
+                                        <Text style={{ fontWeight: 'bold' }}>Fisiyenga</Text>
                                         <Text style={{ paddingRight: 40 }} numberOfLines={2}>La semana pasada hemos jugado con todo el salón. Es bueno poner en práctica de vez en cuando lo aprendido de manera divertida para que nuestros niños aprendan</Text>
                                     </View>
                                 </View>
                             </View>
-                            <Image source={require('../assets/img2.png')} style={{ borderRadius: 10, width: '100%', height: 200, marginTop: 15 }} />
+                            <Image source={require('../assets/img2.png')} style={{ borderRadius: 5, width: '100%', height: 200, marginTop: 15 }} />
                             <View
                                 style={{ flexDirection: 'row', justifyContent: 'space-between', paddingHorizontal: 10 }}>
                                 <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center', paddingVertical: 10 }}>
@@ -249,18 +249,18 @@ export default function ProfileScreen({ navigation }) {
                                 <Image source={require('../assets/avatar.png')} style={{ width: 50, height: 50 }} />
                                 <View style={{ marginLeft: 15 }}>
                                     <View style={{ flexDirection: 'row', justifyContent: 'space-between', paddingRight: 40 }}>
-                                        <Text style={{ fontWeight: 'bold' }}>Carla Linares Diaz</Text>
+                                        <Text style={{ fontWeight: 'bold', fontSize: 15 }}>Carla Linares Diaz</Text>
                                         <TouchableOpacity onPress={() => viewOptions()}>
                                             <SimpleLineIcons name="options-vertical" size={20} color="black" />
                                         </TouchableOpacity>
                                     </View>
                                     <View style={{ marginTop: 5 }}>
-                                        <Text >Proyecto: Encuentra el tesoro</Text>
+                                        <Text style={{ fontWeight: 'bold' }}>Fisiyenga</Text>
                                         <Text style={{ paddingRight: 40 }} numberOfLines={2}>La semana pasada hemos jugado con todo el salón. Es bueno poner en práctica de vez en cuando lo aprendido de manera divertida para que nuestros niños aprendan</Text>
                                     </View>
                                 </View>
                             </View>
-                            <Image source={require('../assets/img3.png')} style={{ borderRadius: 10, width: '100%', height: 200, marginTop: 15 }} />
+                            <Image source={require('../assets/img3.png')} style={{ borderRadius: 5, width: '100%', height: 200, marginTop: 15 }} />
                             <View
                                 style={{ flexDirection: 'row', justifyContent: 'space-between', paddingHorizontal: 10 }}>
                                 <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center', paddingVertical: 10 }}>
@@ -282,18 +282,18 @@ export default function ProfileScreen({ navigation }) {
                                 <Image source={require('../assets/ester.png')} style={{ width: 50, height: 50 }} />
                                 <View style={{ marginLeft: 15 }}>
                                     <View style={{ flexDirection: 'row', justifyContent: 'space-between', paddingRight: 40 }}>
-                                        <Text style={{ fontWeight: 'bold' }}>Hugo Jimenez</Text>
+                                        <Text style={{ fontWeight: 'bold', fontSize: 15 }}>Hugo Jimenez</Text>
                                         <TouchableOpacity onPress={() => viewOptions()}>
                                             <SimpleLineIcons name="options-vertical" size={20} color="black" />
                                         </TouchableOpacity>
                                     </View>
                                     <View style={{ marginTop: 5 }}>
-                                        <Text >Proyecto: No lo digas!</Text>
+                                        <Text style={{ fontWeight: 'bold' }}>Fisiyenga</Text>
                                         <Text style={{ paddingRight: 40 }} numberOfLines={2}>La semana pasada hemos jugado con todo el salón. Es bueno poner en práctica de vez en cuando lo aprendido de manera divertida para que nuestros niños aprendan</Text>
                                     </View>
                                 </View>
                             </View>
-                            <Image source={require('../assets/img2.png')} style={{ borderRadius: 10, width: '100%', height: 200, marginTop: 15 }} />
+                            <Image source={require('../assets/img2.png')} style={{ borderRadius: 5, width: '100%', height: 200, marginTop: 15 }} />
                             <View
                                 style={{ flexDirection: 'row', justifyContent: 'space-between', paddingHorizontal: 10 }}>
                                 <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center', paddingVertical: 10 }}>
